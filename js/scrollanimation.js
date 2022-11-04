@@ -33,10 +33,11 @@ $(function () {
 
         if (sct > 1700 && scene02 == true) {
             scene02 = false;
-            $('#skill .color_box01').stop().delay(0).animate({ top: '0px' }, 2000)
-            $('#skill .color_box02').stop().delay(500).animate({ top: '0px' }, 1500)
-            $('#skill .color_box03').stop().delay(1000).animate({ top: '0px' }, 1000)
-            $('#skill .color_box04').stop().delay(1500).animate({ top: '0px' }, 700)
+            $('#skill .color_box01').stop().delay(0).animate({ top: '0px' }, 2500)
+            $('#skill .color_box02').stop().delay(500).animate({ top: '0px' }, 2000)
+            $('#skill .color_box03').stop().delay(1000).animate({ top: '0px' }, 1500)
+            $('#skill .color_box04').stop().delay(1500).animate({ top: '0px' }, 1000)
+            $('#skill .color_box05').stop().delay(2000).animate({ top: '0px' }, 700)
             $('#skill .skill_list li:nth-child(1)').show().stop().css({ opacity: 0 }).animate({ right: '-70px', opacity: 1 }, 700)
             $('#skill .skill_list li:nth-child(2)').show().stop().css({ opacity: 0 }).animate({ right: '-70px', opacity: 1 }, 1000)
             $('#skill .skill_list li:nth-child(3)').show().stop().css({ opacity: 0 }).animate({ right: '-70px', opacity: 1 }, 1500)
@@ -44,10 +45,11 @@ $(function () {
             $('#skill .skill_list li:nth-child(5)').show().stop().css({ opacity: 0 }).animate({ right: '-70px', opacity: 1 }, 2500)
         } else if (sct < 1500 && scene02 == false) {
             scene02 = true;
-            $('#skill .color_box01').stop().animate({ top: '-300px' })
-            $('#skill .color_box02').stop().animate({ top: '-250px' })
-            $('#skill .color_box03').stop().animate({ top: '-150px' })
-            $('#skill .color_box04').stop().animate({ top: '-100px' })
+            $('#skill .color_box01').stop().animate({ top: '-400px' })
+            $('#skill .color_box02').stop().animate({ top: '-300px' })
+            $('#skill .color_box03').stop().animate({ top: '-250px' })
+            $('#skill .color_box04').stop().animate({ top: '-150px' })
+            $('#skill .color_box05').stop().animate({ top: '-100px' })
             $('#skill .skill_list li').show().stop().animate({ right: '70px', opacity: 0 })
         };
 

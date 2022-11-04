@@ -16,7 +16,7 @@ section {
 #header {
     width: 100%;
     height: 100px;
-    border: 1px solid #000;
+    border-bottom: 1px solid #000;
     position: fixed;
 }
 
@@ -81,7 +81,7 @@ section {
 /* 자기소개영역 */
 
 #myself {
-    background-color: bisque;
+    background: url(../images/myseftbackground.jpg);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -90,29 +90,30 @@ section {
 #myself .txt {
     width: 500px;
     height: 500px;
-    background-color: azure;
+    /* background-color: azure; */
     position: relative;
 }
 
 #myself .txt p {
     font-size: 30px;
+    color: #000;
 }
 
 #myself .pic {
     width: 500px;
     height: 500px;
-    background-color: rgb(103, 158, 158);
+    /* background-color: rgb(103, 158, 158); */
     position: relative;
 }
 
-#myself .pic p {
-    font-size: 50px;
+#myself .pic img {
+    width: 100%;
 }
 
 /* 스킬영역 */
 
 #skill {
-    background-color: rgb(218, 146, 146);
+    /* background-color: rgb(218, 146, 146); */
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -121,9 +122,9 @@ section {
 #skill .left {
     width: 700px;
     height: 700px;
-    background-color: rgb(214, 112, 112);
+    /* background-color: rgb(214, 112, 112); */
     position: relative;
-    padding: 200px 0 0 125px;
+    padding-top: 50px;
     box-sizing: border-box;
 }
 
@@ -132,11 +133,72 @@ section {
     height: 400px;
     border: 1px solid #000;
     float: left;
-    margin-right: 50px;
+    margin-right: 80px;
+    margin-top: 20px;
     overflow: hidden;
+    position: relative;
+    left: 10px;
+}
+
+#skill .left>div:last-child {
+    margin-right: 0;
+}
+
+#skill .left>article {
+    width: 700px;
+    height: 100px;
+    /* background-color: #555; */
+}
+
+#skill .left>article ul {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#skill .left>article ul li {
+    width: 70px;
+}
+
+#skill .left>article ul li:nth-child(1) {
+    position: relative;
+    left: 10px;
+}
+
+#skill .left>article ul li:nth-child(2) {
+    position: relative;
+    left: 5px;
+}
+
+#skill .left>article ul li:nth-child(3) {
+    position: relative;
+}
+
+#skill .left>article ul li:nth-child(4) {
+    position: relative;
+    left: -4px;
+}
+
+#skill .left>article ul li:nth-child(5) {
+    position: relative;
+    left: -11px;
+}
+
+#skill .left>article ul li img {
+    width: 100%;
 }
 
 #skill .color_box01 {
+    width: 70px;
+    height: 400px;
+    background-color: #555;
+    position: relative;
+    top: -400px;
+}
+
+#skill .color_box02 {
     width: 70px;
     height: 300px;
     background-color: #555;
@@ -144,7 +206,7 @@ section {
     top: -300px;
 }
 
-#skill .color_box02 {
+#skill .color_box03 {
     width: 70px;
     height: 250px;
     background-color: #555;
@@ -152,7 +214,7 @@ section {
     top: -250px;
 }
 
-#skill .color_box03 {
+#skill .color_box04 {
     width: 70px;
     height: 150px;
     background-color: #555;
@@ -160,7 +222,7 @@ section {
     top: -150px;
 }
 
-#skill .color_box04 {
+#skill .color_box05 {
     width: 70px;
     height: 100px;
     background-color: #555;
@@ -171,7 +233,7 @@ section {
 #skill .right {
     width: 700px;
     height: 700px;
-    background-color: brown;
+    background-color: rgb(83, 71, 71);
 }
 
 #skill .skill_list {
@@ -285,4 +347,8 @@ section {
 #q_mn .nav li.on2 {
     font-weight: 900;
     color: #000;
+}
+
+#q_mn .nav li.act {
+    color: #fff;
 }

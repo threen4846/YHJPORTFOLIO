@@ -4,6 +4,7 @@ $(function () {
     //nav 호버
     $('#header .nav_list li').hover(
         function () {
+            $('#header .nav_list li').removeClass('on');
             $(this).addClass('on');
         },
         function () {
@@ -51,6 +52,7 @@ $(function () {
 
     $('#q_mn .nav li').hover(
         function () {
+            $('#q_mn .nav li').removeClass('on2')
             $(this).addClass('on2')
         },
         function () {
