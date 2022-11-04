@@ -10,13 +10,15 @@ section {
 /* 메인영역 */
 
 #main {
-    background-color: #fff;
+    background: url(../images/mainimg.png) no-repeat 0 -150px;
+    background-size: 100%
 }
 
 #header {
     width: 100%;
     height: 100px;
-    border-bottom: 1px solid #000;
+    /* border-bottom: 1px solid #000; */
+    background-color: #000;
     position: fixed;
 }
 
@@ -32,6 +34,7 @@ section {
 
 #header .logo span {
     font-size: 50px;
+    color: #fff;
 }
 
 #header .nav {
@@ -57,12 +60,12 @@ section {
     text-align: center;
     line-height: 50px;
     font-size: 25px;
+    color: #fff;
 }
 
 #header .nav_list li.on {
-    border-bottom: 2px solid #000;
+    border-bottom: 2px solid #fff;
     font-weight: 900;
-    color: #000;
 }
 
 #main_b {
@@ -80,228 +83,283 @@ section {
 
 /* 자기소개영역 */
 
-#myself {
-    background: url(../images/myseftbackground.jpg);
+#aboutme {
+
+}
+
+#leftbar {
+    width: 400px;
+    height: 1000px;
+    background-color: #000;
+    float: left;
+}
+
+#leftbar .mypic {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-color: #fff;
+    overflow: hidden;
+    position: relative;
+    top: 50px;
+    left: 70px;
+}
+
+#leftbar .mypic img {
+    width: 150%;
+    position: relative;
+    left: -90px;
+}
+
+#leftbar h2 {
+    color: #fff;
+    font-size: 50px;
+    position: relative;
+    top: 70px;
+    left: 60px;
+}
+
+#leftbar p {
+    color: #fff;
+    position: relative;
+    top: 100px;
+    font-size: 20px;
+}
+
+#aboutmebox {
+    width: 800px;
+    height: 150px;
+    border: 3px solid #000;
+    position: relative;
+    top: 100px;
+    left: 350px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
-#myself .txt {
-    width: 500px;
-    height: 500px;
-    /* background-color: azure; */
+#aboutmebox p {
+    font-size: 100px;
+}
+
+#aboutmetxt01 {
+    width: 1100px;
+    height: 250px;
     position: relative;
+    top: 200px;
+    left: 200px;
+    display: flex;
+
 }
 
-#myself .txt p {
-    font-size: 30px;
-    color: #000;
+#aboutmetxt01 li {
+    width: 366px;
+    height: 250px;
+    /* border: 1px solid #000; */
+    font-size: 20px;
 }
 
-#myself .pic {
-    width: 500px;
-    height: 500px;
-    /* background-color: rgb(103, 158, 158); */
+#aboutmetxt02 {
+    width: 1100px;
+    height: 250px;
     position: relative;
+    top: 250px;
+    left: 200px;
+    display: flex;
 }
 
-#myself .pic img {
-    width: 100%;
+#aboutmetxt02 li {
+    width: 366px;
+    height: 250px;
+    /* border: 1px solid #000; */
+    font-size: 20px;
 }
 
 /* 스킬영역 */
 
 #skill {
-    /* background-color: rgb(218, 146, 146); */
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    
 }
 
-#skill .left {
-    width: 700px;
-    height: 700px;
-    /* background-color: rgb(214, 112, 112); */
-    position: relative;
-    padding-top: 50px;
-    box-sizing: border-box;
-}
-
-#skill .left>div {
-    width: 70px;
-    height: 400px;
-    border: 1px solid #000;
-    float: left;
-    margin-right: 80px;
-    margin-top: 20px;
-    overflow: hidden;
-    position: relative;
-    left: 10px;
-}
-
-#skill .left>div:last-child {
-    margin-right: 0;
-}
-
-#skill .left>article {
-    width: 700px;
-    height: 100px;
-    /* background-color: #555; */
-}
-
-#skill .left>article ul {
-    width: 100%;
-    height: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-#skill .left>article ul li {
-    width: 70px;
-}
-
-#skill .left>article ul li:nth-child(1) {
-    position: relative;
-    left: 10px;
-}
-
-#skill .left>article ul li:nth-child(2) {
-    position: relative;
-    left: 5px;
-}
-
-#skill .left>article ul li:nth-child(3) {
-    position: relative;
-}
-
-#skill .left>article ul li:nth-child(4) {
-    position: relative;
-    left: -4px;
-}
-
-#skill .left>article ul li:nth-child(5) {
-    position: relative;
-    left: -11px;
-}
-
-#skill .left>article ul li img {
-    width: 100%;
-}
-
-#skill .color_box01 {
-    width: 70px;
-    height: 400px;
-    background-color: #555;
-    position: relative;
-    top: -400px;
-}
-
-#skill .color_box02 {
-    width: 70px;
-    height: 300px;
-    background-color: #555;
-    position: relative;
-    top: -300px;
-}
-
-#skill .color_box03 {
-    width: 70px;
-    height: 250px;
-    background-color: #555;
-    position: relative;
-    top: -250px;
-}
-
-#skill .color_box04 {
-    width: 70px;
+#skillbox {
+    width: 800px;
     height: 150px;
-    background-color: #555;
+    border: 3px solid #000;
     position: relative;
-    top: -150px;
+    top: 100px;
+    left: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#skill .color_box05 {
-    width: 70px;
-    height: 100px;
-    background-color: #555;
+#skillbox p {
+    font-size: 100px;
+}
+
+#percent {
+    width: 1000px;
+    height: 450px;
+    /* border: 1px solid #000; */
     position: relative;
-    top: -100px;
-}
-
-#skill .right {
-    width: 700px;
-    height: 700px;
-    background-color: rgb(83, 71, 71);
-}
-
-#skill .skill_list {
-    width: 700px;
-    height: 700px;
+    top: 200px;
+    left: 100px;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    /* align-items: center; */
+    justify-content: space-between;
 }
 
-#skill .skill_list li {
-    width: 500px;
-    height: 100px;
-    /* background-color: aliceblue; */
-    font-size: 40px;
-    color: #fff;
-    line-height: 100px;
+#percent>div {
+    width: 100%;
+    height: 90px;
+    /* border: 1px solid #000; */
+}
+
+#percent>div>div {
+    float: left;
+    width: 150px;
     text-align: center;
+}
+
+#percent>div>div span {
+    font-size: 15px;
+}
+
+#percent>div .percentbox {
+    width: 300px;
+    height: 25px;
+    border: 1px solid #000;
+    position: absolute;
+    left: 150px;
+    overflow: hidden;
+}
+
+#percent>div .percentbox>div {
+    height: 25px;
+    background-color: #000;
     position: relative;
+}
+
+#percent .percent01 .percentbox>div {
+    width: 300px;
+    left: -300px;
+}
+
+#percent .percent02 .percentbox>div {
+    width: 150px;
+    left: -150px;
+}
+
+#percent .percent03 .percentbox>div {
+    width: 250px;
+    left: -250px;
+}
+
+#percent .percent04 .percentbox>div {
+    width: 100px;
+    left: -100px;
+}
+
+#percent .percent05 .percentbox>div {
+    width: 50px;
+    left: -50px;
+}
+
+#percent>div p {
+    float: right;
+    font-size: 15px;
+    position: relative;
+    left: 200px;
 }
 
 /* 작업물영역 */
 
 #project {
-    background-color: cadetblue;
-    padding-top: 50px;
-    box-sizing: border-box;
+
 }
 
-#project_box {
-    width: 1600px;
-    height: 900px;
-    /* background-color: blueviolet; */
+#projectbox {
+    width: 800px;
+    height: 150px;
+    border: 3px solid #000;
+    position: relative;
+    top: 100px;
+    left: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#projectbox p {
+    font-size: 100px;
+}
+
+#project_h {
+    width: 1000px;
+    height: 50px;
+    /* border: 1px solid #000; */
+    position: relative;
+    top: 150px;
+    left: 700px;
+}
+
+#project_h .project_h_list {
+    width: 1000px;
+    height: 50px;
     display: flex;
     justify-content: space-evenly;
-    align-items: flex-end;
+    align-items: center;
 }
 
-#project_box>article {
+#project_h .project_h_list li {
+    width: 150px;
+    height: 30px;
+    border: 1px solid #000;
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+#project_h .project_h_list li.on {
+    background-color: #000;
+    color: #fff;
+}
+
+#project_h .project_h_list li.on2 {
+    background-color: yellow;
+}
+
+#project_b {
+    width: 1000px;
+    height: 500px;
+    border: 1px solid #000;
     position: relative;
+    top: 180px;
+    left: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#project_box>article>img {
+#project_b > div {
+    width: 900px;
+    height: 400px;
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+}
+
+#project_b > div > div {
+    width: 200px;
+    height: 300px;
+    border: 1px solid #000;
+}
+
+#project_b > div > div img {
     width: 100%;
-}
-
-#project_box>article p {
-    margin-top: 50px;
-    font-size: 30px;
-}
-
-#project .project01 {
-    width: 500px;
-    height: 700px;
-    border: 1px solid #000;
-}
-
-#project .project02 {
-    width: 500px;
-    height: 700px;
-    border: 1px solid #000;
-}
-
-#project .project03 {
-    width: 500px;
-    height: 700px;
-    border: 1px solid #000;
 }
 
 /* 컨텐츠영역 */
@@ -320,16 +378,17 @@ section {
 
 #q_mn {
     position: absolute;
-    width: 150px;
+    width: 50px;
     height: 300px;
     top: 200px;
     right: 50px;
     border: 1px solid #000;
+    background-color: #fff;
     border-radius: 20px;
 }
 
 #q_mn .nav {
-    width: 150px;
+    width: 50px;
     height: 300px;
     display: flex;
     flex-direction: column;
@@ -338,17 +397,23 @@ section {
 }
 
 #q_mn .nav li {
-    width: 100px;
+    width: 30px;
     font-size: 25px;
     cursor: pointer;
     text-align: center;
+    padding-top: 5px;
+    box-sizing: border-box;
 }
 
 #q_mn .nav li.on2 {
+    border-bottom: 2px solid #000;
+}
+
+/* #q_mn .nav li.on2 {
     font-weight: 900;
     color: #000;
 }
 
 #q_mn .nav li.act {
     color: #fff;
-}
+} */
