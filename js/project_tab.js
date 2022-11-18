@@ -20,7 +20,7 @@ $(function(){
     })
 
     function move(n){
-        var pos = (-1500) * n + 'px' 
+        var pos = (-1000) * n + 'px' 
         $('#project_b .pb').stop().animate({left: pos}, 500)
     }
 });

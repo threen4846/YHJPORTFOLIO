@@ -44,6 +44,11 @@
     }
 
     #header_m .menu>div {
+        width: 30px;
+        height: 25px;
+    }
+
+    #header_m .menu>div>div {
         margin-bottom: 3px;
         width: 30px;
         height: 5px;
@@ -215,7 +220,7 @@
 
     #skill_m .percent>div>div {
         float: right;
-        width: 200px;
+        width: 150px;
         height: 10px;
         border: 1px solid #000;
         margin-right: 80px;

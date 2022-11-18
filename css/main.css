@@ -2,6 +2,11 @@
     width: 100%;
 }
 
+
+#wrap_m {
+    display: none;
+}
+
 section {
     width: 100%;
     height: 1000px;
@@ -137,12 +142,12 @@ section {
 }
 
 #aboutmebox {
-    width: 800px;
+    width: 500px;
     height: 150px;
-    border: 3px solid #000;
+    border: 10px solid #000;
     position: relative;
     top: 100px;
-    left: 350px;
+    left: 450px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -157,7 +162,7 @@ section {
     height: 250px;
     position: relative;
     top: 200px;
-    left: 200px;
+    left: 250px;
     display: flex;
 
 }
@@ -174,7 +179,7 @@ section {
     height: 250px;
     position: relative;
     top: 250px;
-    left: 200px;
+    left: 250px;
     display: flex;
 }
 
@@ -199,9 +204,9 @@ section {
 }
 
 #skillbox {
-    width: 800px;
+    width: 500px;
     height: 150px;
-    border: 3px solid #000;
+    border: 10px solid #000;
     /* position: relative;
     top: 100px;
     left: 250px; */
@@ -301,9 +306,9 @@ section {
 }
 
 #projectbox {
-    width: 800px;
+    width: 500px;
     height: 150px;
-    border: 3px solid #000;
+    border: 10px solid #000;
     text-align: center;
     line-height: 150px;
 }
@@ -315,10 +320,12 @@ section {
 #project_h {
     width: 1000px;
     height: 50px;
+    display: flex;
+    justify-content: center;
 }
 
 #project_h .project_h_list {
-    width: 1000px;
+    width: 700px;
     height: 50px;
     display: flex;
     justify-content: space-between;
@@ -328,7 +335,7 @@ section {
 #project_h .project_h_list li {
     width: 150px;
     height: 30px;
-    border: 1px solid #000;
+    border: 3px solid #000;
     font-size: 20px;
     text-align: center;
     line-height: 30px;
@@ -346,9 +353,9 @@ section {
 }
 
 #project_b {
-    width: 1500px;
+    width: 1000px;
     height: 500px;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     overflow: hidden;
 }
 
@@ -360,7 +367,7 @@ section {
 
 #project_b .pb>div {
     float: left;
-    width: 1500px;
+    width: 1000px;
     height: 500px;
     display: flex;
     justify-content: space-evenly;
@@ -392,12 +399,12 @@ section {
 }
 
 #contentsbox {
-    width: 800px;
+    width: 500px;
     height: 150px;
-    border: 3px solid #000;
+    border: 10px solid #000;
     position: absolute;
     top: 100px;
-    left: 550px;
+    left: 700px;
     text-align: center;
     line-height: 150px;
 }
@@ -492,8 +499,4 @@ section {
 
 #q_mn .nav li.on2 {
     border-bottom: 2px solid #000;
-}
-
-#wrap_m {
-    display: none;
 }
