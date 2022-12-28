@@ -266,23 +266,23 @@ section {
 }
 
 #percent .percent01 .percentbox > div {
-    width: 300px;
-    left: -300px;
+    width: 280px;
+    left: -280px;
 }
 
 #percent .percent02 .percentbox > div {
-    width: 150px;
-    left: -150px;
+    width: 50px;
+    left: -50px;
 }
 
 #percent .percent03 .percentbox > div {
-    width: 250px;
-    left: -250px;
+    width: 200px;
+    left: -200px;
 }
 
 #percent .percent04 .percentbox > div {
-    width: 100px;
-    left: -100px;
+    width: 0px;
+    left: -0px;
 }
 
 #percent .percent05 .percentbox > div {

@@ -35,10 +35,10 @@ $(function () {
             $('#percent .percent05 .percentbox>div').stop().delay(2000).animate({ left: 0 }, 1500)
         } else if (sct < 1500 && scene02 == false) {
             scene02 = true;
-            $('#percent .percent01 .percentbox>div').stop().animate({ left: '-300px' })
-            $('#percent .percent02 .percentbox>div').stop().animate({ left: '-150px' })
-            $('#percent .percent03 .percentbox>div').stop().animate({ left: '-250px' })
-            $('#percent .percent04 .percentbox>div').stop().animate({ left: '-100px' })
+            $('#percent .percent01 .percentbox>div').stop().animate({ left: '-280px' })
+            $('#percent .percent02 .percentbox>div').stop().animate({ left: '-50px' })
+            $('#percent .percent03 .percentbox>div').stop().animate({ left: '-200px' })
+            $('#percent .percent04 .percentbox>div').stop().animate({ left: '-0px' })
             $('#percent .percent05 .percentbox>div').stop().animate({ left: '-50px' })
         };
 
