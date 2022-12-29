@@ -92,105 +92,46 @@ section {
 #aboutme {
     width: 100%;
     height: 100vh;
+    padding-top: 100px;
+    box-sizing: border-box;
 }
 
-#leftbar {
-    width: 400px;
-    height: 1000px;
-    background-color: #000;
-    float: left;
-}
-
-#leftbar .mypic {
-    width: 400px;
-    height: 400px;
-    border-radius: 50%;
-    background-color: #fff;
-    overflow: hidden;
-    position: relative;
-    top: 50px;
-    left: 70px;
-}
-
-#leftbar .mypic img {
-    width: 150%;
-    position: relative;
-    left: -90px;
-}
-
-#leftbar .txtbox {
-    /* background-color: rgb(206, 182, 182); */
-    width: 300px;
-    height: 400px;
-    margin: 50px 0 0 50px;
-}
-
-#leftbar .txtbox h2 {
-    color: #fff;
-    font-size: 30px;
-    position: relative;
-    top: 70px;
-    left: 60px;
-}
-
-#leftbar .txtbox p {
-    color: #fff;
-    position: relative;
-    top: 100px;
-    font-size: 18px;
-    text-align: center;
-}
-
-#aboutmebox {   
+#aboutmebox {
+    margin: 0 auto;
     width: 500px;
     height: 150px;
     border: 10px solid #000;
-    position: relative;
-    top: 100px;
-    left: 450px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-bottom: 50px;
 }
 
 #aboutmebox p {
     font-size: 50px;
+    text-align: center;
+    line-height: 150px;
 }
 
-#aboutmetxt01 {
-    width: 1100px;
-    height: 200px;
-    position: relative;
-    top: 150px;
-    left: 150px;
-    border: 1px solid #000;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: 18px;
+#aboutmetxt {
+    margin: 0 auto;
+    width: 700px;
+    height: 600px;
+    /* border: 1px solid #000; */
 }
 
-#aboutmetxt01 span {
-    font-size: 25px;
+#aboutmetxt p {
+    font-size: 15px;
+    margin-bottom: 10px;
 }
 
-#aboutmetxt02 {
-    width: 1100px;
-    height: 200px;
-    position: relative;
-    top: 170px;
-    left: 150px;
-    border: 1px solid #000;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: 18px;
+#aboutmetxt p > span {
+    font-size: 20px;
 }
 
-#aboutmetxt02 span {
-    font-size: 25px;
+#aboutmetxt > span {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #000;
+    margin: 30px 0;
 }
 
 /* 스킬영역 */
@@ -224,11 +165,8 @@ section {
 
 #percent {
     width: 1100px;
-    height: 450px;
+    height: 350px;
     /* border: 1px solid #000; */
-    /* position: relative;
-    top: 200px;
-    left: 400px; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -236,7 +174,7 @@ section {
 
 #percent > div {
     width: 100%;
-    height: 90px;
+    height: 50px;
     /* border: 1px solid #000; */
 }
 
