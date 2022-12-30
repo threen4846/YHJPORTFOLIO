@@ -92,26 +92,35 @@ section {
 #aboutme {
     width: 100%;
     height: 100vh;
-    padding-top: 100px;
-    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#aboutme_in {
+    width: 1300px;
+    height: 800px;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 #aboutmebox {
-    margin: 0 auto;
-    width: 500px;
-    height: 150px;
-    border: 10px solid #000;
+    width: 400px;
+    height: 100px;
+    /* border: 5px solid #000; */
     margin-bottom: 50px;
 }
 
 #aboutmebox p {
     font-size: 50px;
     text-align: center;
-    line-height: 150px;
+    line-height: 100px;
 }
 
 #aboutmetxt {
-    margin: 0 auto;
     width: 700px;
     height: 600px;
     /* border: 1px solid #000; */
@@ -136,11 +145,9 @@ section {
 
 /* 스킬영역 */
 
-#skill {
+/* #skill {
     width: 100%;
     height: 100vh;
-    /* background: url(../images/img01.png) no-repeat 150% -400%; */
-    /* background-size: 78%; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -151,9 +158,6 @@ section {
     width: 500px;
     height: 150px;
     border: 10px solid #000;
-    /* position: relative;
-    top: 100px;
-    left: 250px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -166,7 +170,6 @@ section {
 #percent {
     width: 1100px;
     height: 350px;
-    /* border: 1px solid #000; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -175,7 +178,6 @@ section {
 #percent > div {
     width: 100%;
     height: 50px;
-    /* border: 1px solid #000; */
 }
 
 #percent > div > div {
@@ -192,8 +194,6 @@ section {
     width: 300px;
     height: 25px;
     border: 1px solid #000;
-    /* position: absolute;
-    left: 150px; */
     overflow: hidden;
 }
 
@@ -231,9 +231,7 @@ section {
 #percent > div p {
     float: right;
     font-size: 15px;
-    /* position: relative; */
-    /* left: 150px; */
-}
+} */
 
 /* 작업물영역 */
 
@@ -246,12 +244,22 @@ section {
     align-items: center;
 }
 
+#project_in {
+    width: 1300px;
+    height: 800px;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 #projectbox {
     width: 500px;
-    height: 150px;
-    border: 10px solid #000;
+    height: 100px;
+    /* border: 10px solid #000; */
     text-align: center;
-    line-height: 150px;
+    line-height: 100px;
 }
 
 #projectbox p {
@@ -381,18 +389,31 @@ section {
 #contents {
     /* background-color: darkgoldenrod; */
     width: 100%;
-    position: relative;
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contents_in {
+    width: 1300px;
+    height: 800px;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 #contentsbox {
     width: 500px;
-    height: 150px;
-    border: 10px solid #000;
-    position: absolute;
+    height: 100px;
+    /* border: 10px solid #000; */
+    /* position: absolute;
     top: 100px;
-    left: 700px;
+    left: 700px; */
     text-align: center;
-    line-height: 150px;
+    line-height: 100px;
 }
 
 #contentsbox p {
@@ -400,9 +421,9 @@ section {
 }
 
 #form {
-    position: absolute;
+    /* position: absolute;
     top: 300px;
-    left: 600px;
+    left: 600px; */
 }
 
 .field {
