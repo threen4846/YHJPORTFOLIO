@@ -228,8 +228,8 @@ section {
 }
 
 #percent .percent04 .percentbox > div {
-  width: 50px;
-  left: -50px;
+  width: 30px;
+  left: -30px;
 }
 
 #percent .percent05 .percentbox > div {

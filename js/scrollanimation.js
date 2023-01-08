@@ -58,7 +58,7 @@ $(function () {
         .animate({ left: "-100px" });
       $("#percent .percent04 .percentbox>div")
         .stop()
-        .animate({ left: "-50px" });
+        .animate({ left: "-30px" });
       $("#percent .percent05 .percentbox>div")
         .stop()
         .animate({ left: "-50px" });
