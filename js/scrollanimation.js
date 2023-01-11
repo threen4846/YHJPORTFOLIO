@@ -23,46 +23,46 @@ $(function () {
       scene01 = true;
     }
 
-    if (sct > 1700 && scene02 == true) {
-      scene02 = false;
-      $("#percent .percent01 .percentbox>div")
-        .stop()
-        .delay(0)
-        .animate({ left: 0 }, 1500);
-      $("#percent .percent02 .percentbox>div")
-        .stop()
-        .delay(500)
-        .animate({ left: 0 }, 1500);
-      $("#percent .percent03 .percentbox>div")
-        .stop()
-        .delay(1000)
-        .animate({ left: 0 }, 1500);
-      $("#percent .percent04 .percentbox>div")
-        .stop()
-        .delay(1500)
-        .animate({ left: 0 }, 1500);
-      $("#percent .percent05 .percentbox>div")
-        .stop()
-        .delay(2000)
-        .animate({ left: 0 }, 1500);
-    } else if (sct < 1500 && scene02 == false) {
-      scene02 = true;
-      $("#percent .percent01 .percentbox>div")
-        .stop()
-        .animate({ left: "-200px" });
-      $("#percent .percent02 .percentbox>div")
-        .stop()
-        .animate({ left: "-100px" });
-      $("#percent .percent03 .percentbox>div")
-        .stop()
-        .animate({ left: "-100px" });
-      $("#percent .percent04 .percentbox>div")
-        .stop()
-        .animate({ left: "-30px" });
-      $("#percent .percent05 .percentbox>div")
-        .stop()
-        .animate({ left: "-50px" });
-    }
+    // if (sct > 1700 && scene02 == true) {
+    //   scene02 = false;
+    //   $("#percent .percent01 .percentbox>div")
+    //     .stop()
+    //     .delay(0)
+    //     .animate({ left: 0 }, 1500);
+    //   $("#percent .percent02 .percentbox>div")
+    //     .stop()
+    //     .delay(500)
+    //     .animate({ left: 0 }, 1500);
+    //   $("#percent .percent03 .percentbox>div")
+    //     .stop()
+    //     .delay(1000)
+    //     .animate({ left: 0 }, 1500);
+    //   $("#percent .percent04 .percentbox>div")
+    //     .stop()
+    //     .delay(1500)
+    //     .animate({ left: 0 }, 1500);
+    //   $("#percent .percent05 .percentbox>div")
+    //     .stop()
+    //     .delay(2000)
+    //     .animate({ left: 0 }, 1500);
+    // } else if (sct < 1500 && scene02 == false) {
+    //   scene02 = true;
+    //   $("#percent .percent01 .percentbox>div")
+    //     .stop()
+    //     .animate({ left: "-200px" });
+    //   $("#percent .percent02 .percentbox>div")
+    //     .stop()
+    //     .animate({ left: "-100px" });
+    //   $("#percent .percent03 .percentbox>div")
+    //     .stop()
+    //     .animate({ left: "-100px" });
+    //   $("#percent .percent04 .percentbox>div")
+    //     .stop()
+    //     .animate({ left: "-30px" });
+    //   $("#percent .percent05 .percentbox>div")
+    //     .stop()
+    //     .animate({ left: "-50px" });
+    // }
 
     if (sct > 2700 && scene03 == true) {
       scene03 = false;
