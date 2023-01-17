@@ -4,190 +4,89 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>이력서 홈페이지_yhj</title>
-
+    <title>PORTPOLIO</title>
+    <link rel="stylesheet" href="./css/styles.css" />
     <link rel="stylesheet" href="./css/reset.css" />
-    <link rel="stylesheet" href="./css/main.css" />
-    <!-- <link
-      rel="stylesheet"
-      media="(max-width:480px)"
-      href="./css/main(480).css"
-    /> -->
-
-    <script src="./js/jquery.js"></script>
-    <script src="./js/start.js"></script>
-    <script src="./js/nav.js"></script>
-    <script src="./js/scrollanimation.js"></script>
-    <script src="./js/project_tab.js"></script>
   </head>
-
   <body>
-    <div id="wrap">
-      <section id="main">
-        <header id="header">
-          <div class="logo">
-            <span>YHJ</span>
-          </div>
-          <nav class="nav">
-            <ul class="nav_list">
-              <li>main</li>
-              <li>about me</li>
-              <li>skill</li>
-              <li>project</li>
-              <li>contact me</li>
-              <!-- <li>end</li> -->
-            </ul>
-          </nav>
-        </header>
-        <section id="main_b">
-          <p>Hello! I'm Yun Hyun Jun</p>
-        </section>
-      </section>
-      <section id="aboutme">
-        <div id="aboutme_in">
-          <div id="aboutmebox">
-            <p>ABOUT ME</p>
-          </div>
-          <div id="aboutmetxt">
-            <p><span>-인적사항</span></p>
-            <p>이름 : 윤현준, Yun HyunJun</p>
+    <div class="header">
+      <ul>
+        <li class="on" class="a"><a href="#">ABOUT</a></li>
+        <li><a href="#">SKILL</a></li>
+        <li><a href="#">PROJECT</a></li>
+        <li><a href="#">CONTACT</a></li>
+      </ul>
+    </div>
+    <div class="content">
+      <div class="content__about">
+        <div class="content__about__in contentinbox">
+          <div class="content__about__in__left leftrightbox">
+            <h2>- 인적사항</h2>
+            <p>이름 : 윤현준</p>
             <p>전화번호 : 010-6333-4846</p>
-            <p>이메일 주소 : threen4846@naver.com</p>
             <p>
-              블로그 주소 :
-              <a href="https://blog.naver.com/threen4846"
+              기술블로그 주소 :
+              <a href="https://blog.naver.com/threen4846" target="_blank"
                 >https://blog.naver.com/threen4846</a
               >
             </p>
             <p>
               깃허브 주소 :
-              <a href="https://github.com/threen4846"
+              <a href="https://github.com/threen4846" target="_blank"
                 >https://github.com/threen4846</a
               >
             </p>
-            <span></span>
-            <p><span>-TimeLine</span></p>
+          </div>
+          <div class="content__about__in__right leftrightbox">
+            <h2>- TimeLine</h2>
             <p>
-              (22.08.22~22.12.29) 부산 코리아IT아카데미 UI/UX기반 프론트엔드
-              개발자 양성과정 수료
+              <b>(22.08.22~22.12.29)</b> 부산 코리아IT아카데미 UI/UX기반<br />
+              프론트엔드 개발자 양성과정 수료
             </p>
-            <span></span>
           </div>
         </div>
-      </section>
-      <section id="skill">
-        <div id="skill_in">
-          <div id="skillbox">
-            <p>skill</p>
+      </div>
+      <div class="content__skill">
+        <div class="content__skill__in contentinbox">
+          <div class="content__skill__in__hc">
+            <img src="./images/skillleftboxpic01.png" alt="htmlcss" />
           </div>
-          <ul class="skill_list">
-            <li>
-              <img src="./images/skillleftboxpic01.png" alt="" />
-            </li>
-            <li>
-              <img src="./images/skillleftboxpic02.png" alt="" />
-            </li>
-            <li>
-              <img src="./images/skillleftboxpic03.png" alt="" />
-            </li>
-            <!-- <li>
-              <img src="./images/skillleftboxpic04.png" alt="" />
-            </li> -->
-            <li>
-              <img src="./images/skillleftboxpic05.png" alt="" />
-            </li>
-          </ul>
-          <!--<div id="percent">
-            <div class="percent01">
-              <div>
-                <span>HTML & CSS</span>
-              </div>
-              <div class="percentbox">
-                <div></div>
-              </div>
-              <p>
-                페이지에 제목, 문단, 표, 이미지, 동영상 등을 정의하고 그 구조와
-                의미를 부여할 수 있음.<br />
-                웹의 시각적인 표현을 부여할 수 있고, 이를 통해 전체적인 웹
-                구조를 만들 수 있음.
-              </p>
-            </div>
-            <div class="percent02">
-              <div>
-                <span>JavaScript</span>
-              </div>
-              <div class="percentbox">
-                <div></div>
-              </div>
-              <p>
-                자바스크립트 이론, 개념에 대한 이해와 기본적인 동적 움직임.
-                웹페이지에 다양한 효과나 연출 적용
-              </p>
-            </div>
-            <div class="percent03">
-              <div>
-                <span>Jquery</span>
-              </div>
-              <div class="percentbox">
-                <div></div>
-              </div>
-              <p>
-                오픈소스 기반의 자바스크립트 라이브러리를 이용하여 웹페이지 상
-                요소들을 찾아내고 조작할 수 있음<br />
-                웹페이지에 다양한 효과나 연출을 적용할 수 있음.
-              </p>
-            </div>
-            <div class="percent04">
-              <div>
-                <span>Node.js</span>
-              </div>
-              <div class="percentbox">
-                <div></div>
-              </div>
-              <p>Node.js 기본 개념 이해</p>
-            </div>
-            <div class="percent05">
-              <div>
-                <span>React</span>
-              </div>
-              <div class="percentbox">
-                <div></div>
-              </div>
-              <p>
-                React 페이지 환경구축, 상태를 관리하는 캡슐화된 컴포넌트 생성.
-                이를 조합하여 복잡한 UI 디자인 구성.<br />데이터가 변경됨에 따라
-                적절한 컴포넌트를 효율적으로 갱신하고 렌더링
-              </p>
-            </div>
-          </div> -->
+          <div class="content__skill__in__js">
+            <img src="./images/skillleftboxpic02.png" alt="htmlcss" />
+          </div>
+          <div class="content__skill__in__jquery">
+            <img src="./images/skillleftboxpic03.png" alt="htmlcss" />
+          </div>
+          <div class="content__skill__in__react">
+            <img src="./images/skillleftboxpic05.png" alt="htmlcss" />
+          </div>
         </div>
-      </section>
-      <section id="project">
-        <div id="project_in">
-          <div id="projectbox">
-            <p>PROJECT</p>
-          </div>
-          <div id="project_h">
-            <ul class="project_h_list">
+      </div>
+      <div class="content__project">
+        <div class="content__project__in contentinbox">
+          <div class="content__project__in__h">
+            <ul class="content__project__in__h_list">
               <li>HTML & CSS</li>
               <li>JavaScript</li>
+              <li>Jquery</li>
               <li>React</li>
               <!-- <li>project04</li> -->
             </ul>
           </div>
-          <div id="project_b">
-            <div class="pb">
-              <div class="xd">
-                <div class="xd_img">
+          <div class="content__project__in__b">
+            <div class="content__project__in__b__big">
+              <div class="content__project__in__b__big__hc">
+                <div class="content__project__in__b__big__hc__img">
                   <img src="./images/HTML&CSSImage.png" alt="" />
                 </div>
-                <div class="xd_txt">
+                <div class="content__project__in__b__big__hc__txt">
                   <p>제목 : 카카오톡 클론코딩(모바일)</p>
                   <p>
                     링크 :
                     <a
                       href="
-                      https://threen4846.github.io/KokoaClone/"
+                                https://threen4846.github.io/KokoaClone/"
+                      target="_blank"
                       >https://threen4846.github.io/KokoaClone/</a
                     >
                   </p>
@@ -200,15 +99,17 @@
                   <p>후기 :</p>
                 </div>
               </div>
-              <div class="clone">
-                <div class="clone_img">
+              <div class="content__project__in__b__big__js">
+                <div class="content__project__in__b__big__js__img">
                   <img src="./images/JSimage.png" alt="" />
                 </div>
-                <div class="clone_txt">
+                <div class="content__project__in__b__big__js__txt">
                   <p>제목 : VanillaJS로 크롬 앱</p>
                   <p>
                     링크 :
-                    <a href="https://threen4846.github.io/VanillaJSCromeApp/"
+                    <a
+                      href="https://threen4846.github.io/VanillaJSCromeApp/"
+                      target="_blank"
                       >https://threen4846.github.io/VanillaJSCromeApp/
                     </a>
                   </p>
@@ -221,16 +122,40 @@
                   <p>후기 :</p>
                 </div>
               </div>
-              <div class="react">
-                <div class="react_img">
+              <div class="content__project__in__b__big__jquery">
+                <div class="content__project__in__b__big__jquery__img">
+                  <img src="./images/JqueryImg.png" alt="" />
+                </div>
+                <div class="content__project__in__b__big__jquery__txt">
+                  <p>제목 : 포트폴리오</p>
+                  <p>
+                    링크 :
+                    <a
+                      href="https://threen4846.github.io/YHJPORTFOLIO/"
+                      target="_blank"
+                      >https://threen4846.github.io/YHJPORTFOLIO/</a
+                    >
+                  </p>
+                  <p>사용기술 : Html, Css, Jquery</p>
+                  <p>
+                    설명 : Jquery를 사용한 원페이지 스크롤, 탭클릭에 따른 이동
+                    기능과 이메일을 바로 보낼 수 있는 Email.js기능이 있는
+                    포트폴리오입니다.
+                  </p>
+                  <p>후기 :</p>
+                </div>
+              </div>
+              <div class="content__project__in__b__big__react">
+                <div class="content__project__in__b__big__react__img">
                   <img src="./images/ReactImage.png" alt="" />
                 </div>
-                <div class="react_txt">
+                <div class="content__project__in__b__big__react__txt">
                   <p>제목 : 리액트 영화 웹 서비스</p>
                   <p>
                     링크 :
                     <a
                       href="https://threen4846.github.io/ReactMovieWebService/"
+                      target="_blank"
                     >
                       https://threen4846.github.io/ReactMovieWebService/
                     </a>
@@ -244,319 +169,12 @@
                   <p>후기 :</p>
                 </div>
               </div>
-              <!-- <div class="project_b04"></div> -->
             </div>
           </div>
         </div>
-      </section>
-      <section id="contents">
-        <div id="contents_in">
-          <div id="contentsbox">
-            <p>contact me</p>
-          </div>
-          <form id="form">
-            <div class="field">
-              <label for="from_name">from_name</label>
-              <input type="text" name="from_name" id="from_name" />
-            </div>
-            <div class="field">
-              <label for="to_name">to_name</label>
-              <input type="text" name="to_name" id="to_name" />
-            </div>
-            <div class="field">
-              <label for="message">message</label>
-              <input type="text" name="message" id="message" />
-            </div>
-            <div class="field">
-              <label for="tel">tel</label>
-              <input type="text" name="tel" id="tel" />
-            </div>
-            <!-- <div class="field">
-                            <label for="reply_to">reply_to</label>
-                            <input type="text" name="reply_to" id="reply_to" />
-                        </div> -->
-            <input type="submit" id="button" value="Send Email" />
-          </form>
-        </div>
-      </section>
-      <!-- <section id="end">
-                <p>thank you</p>
-            </section> -->
-      <div id="q_mn">
-        <ul class="nav">
-          <li>
-            <img src="./images/icon_q_mn_home.png" alt="" />
-          </li>
-          <li>
-            <img src="./images/icon_q_mn_aboutme.png" alt="" />
-          </li>
-          <li>
-            <img src="./images/icon_q_mn_skill.png" alt="" />
-          </li>
-          <li>
-            <img src="./images/icon_q_mn_project.png" alt="" />
-          </li>
-          <li>
-            <img src="./images/icon_q_mn_contents01.png" alt="" />
-          </li>
-          <!-- <li>
-                        <img src="./images/icon_q_mn_finish.png" alt="" />
-                    </li> -->
-        </ul>
       </div>
-
-      <script
-        type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
-      ></script>
-
-      <script type="text/javascript">
-        emailjs.init("zupqzx3xJx0scNem9");
-
-        const btn = document.getElementById("button");
-
-        document
-          .getElementById("form")
-          .addEventListener("submit", function (event) {
-            event.preventDefault();
-
-            btn.value = "Sending...";
-
-            const serviceID = "service_1li1qs4";
-            const templateID = "template_k868701";
-
-            emailjs.sendForm(serviceID, templateID, this).then(
-              () => {
-                btn.value = "Send Email";
-                alert("메일보내기 성공");
-              },
-              (err) => {
-                btn.value = "Send Email";
-                alert(JSON.stringify(err));
-              }
-            );
-          });
-      </script>
-    </div>
-
-    <!-- -------------------------------------------- -->
-    <!-- -------------------------------------------- -->
-    <!-- -------------------------------------------- -->
-    <!-- -------------------------------------------- -->
-    <!-- -------------------------------------------- -->
-    <!-- -------------------------------------------- -->
-    <!-- -------------------------------------------- -->
-    <!-- ---------------------모바일----------------- -->
-    <!-- -------------------------------------------- -->
-    <!-- -------------------------------------------- -->
-    <!-- -------------------------------------------- -->
-    <!-- -------------------------------------------- -->
-    <!-- -------------------------------------------- -->
-    <!-- -------------------------------------------- -->
-    <!-- -------------------------------------------- -->
-    <!-- -------------------------------------------- -->
-
-    <!-- <div id="wrap_m">
-      <section id="main_m">
-        <header id="header_m">
-          <div class="logo">YHJ</div>
-          <div class="menu">
-            <div>
-              <div></div>
-              <div></div>
-              <div></div>
-            </div>
-          </div>
-        </header>
-        <section id="main_m_section">
-          <p>Hello! I'm Yun Hyun Jun</p>
-        </section>
-      </section>
-      <section id="aboutme_m">
-        <div class="aboutme_h">
-          <div>aboutme</div>
-        </div>
-        <div class="myself">
-          <div class="mypic"></div>
-          <div class="txtbox">
-            <h2>Yun Hyun Jun</h2>
-            <p>
-              1) 선박에서 또는 선박의 운항에 직접 관련하여 발생한 사람의 사망,
-              신체의 손상 또는 선박 외의 물건의 멸실 또는 훼손으로 생긴 손해에
-              관한 채권<br /><br />
-              2) 운송물, 여객 또는 수하물의 운송의 지연으로 인하여 생긴 손해에
-              관한 채권
-            </p>
-          </div>
-        </div>
-        <div class="aboutme_txt">
-          <ul class="txtbox01">
-            <li>
-              (2) 용선자<br />
-              1) 권리<br />
-              가. 선박의 사용, 지배, 수익권<br />
-              나. 등기청구권(제 3자 대항가능)<br />
-              2) 의무<br />
-              가. 용선료지급의무
-            </li>
-            <li>
-              (2) 용선자<br />
-              1) 권리<br />
-              가. 선박의 사용, 지배, 수익권<br />
-              나. 등기청구권(제 3자 대항가능)<br />
-              2) 의무<br />
-              가. 용선료지급의무
-            </li>
-            <li>
-              (2) 용선자<br />
-              1) 권리<br />
-              가. 선박의 사용, 지배, 수익권<br />
-              나. 등기청구권(제 3자 대항가능)<br />
-              2) 의무<br />
-              가. 용선료지급의무
-            </li>
-          </ul>
-          <ul class="txtbox02">
-            <li>
-              (2) 용선자<br />
-              1) 권리<br />
-              가. 선박의 사용, 지배, 수익권<br />
-              나. 등기청구권(제 3자 대항가능)<br />
-              2) 의무<br />
-              가. 용선료지급의무
-            </li>
-            <li>
-              (2) 용선자<br />
-              1) 권리<br />
-              가. 선박의 사용, 지배, 수익권<br />
-              나. 등기청구권(제 3자 대항가능)<br />
-              2) 의무<br />
-              가. 용선료지급의무
-            </li>
-            <li>
-              (2) 용선자<br />
-              1) 권리<br />
-              가. 선박의 사용, 지배, 수익권<br />
-              나. 등기청구권(제 3자 대항가능)<br />
-              2) 의무<br />
-              가. 용선료지급의무
-            </li>
-          </ul>
-        </div>
-      </section>
-      <section id="skill_m">
-        <div class="skill_h">
-          <div>skill</div>
-        </div>
-        <div class="percent">
-          <div class="htmlcss">
-            <span>html&css</span>
-            <div>
-              <div></div>
-            </div>
-          </div>
-          <div class="js">
-            <span>javascript</span>
-            <div>
-              <div></div>
-            </div>
-          </div>
-          <div class="jquery">
-            <span>jquery</span>
-            <div>
-              <div></div>
-            </div>
-          </div>
-          <div class="nodejs">
-            <span>node.js</span>
-            <div>
-              <div></div>
-            </div>
-          </div>
-          <div class="react">
-            <span>react</span>
-            <div>
-              <div></div>
-            </div>
-          </div>
-        </div>
-        <div class="txt">
-          <p>
-            선박소유자가 일정한 기간동안 화물의 운송을 목적으로 선원이
-            승무하고<br />
-            선박의장을 갖춘 선박의 전부나 일부를<br />
-            용선자에게 제공할 것으로 약정하고 이에 대한 대가로 용선자가
-          </p>
-          <br /><br /><br />
-          <p>
-            선박소유자가 일정한 기간동안 화물의 운송을 목적으로 선원이
-            승무하고<br />
-            선박의장을 갖춘 선박의 전부나 일부를<br />
-            용선자에게 제공할 것으로 약정하고 이에 대한 대가로 용선자가
-          </p>
-          <br /><br /><br />
-          <p>
-            선박소유자가 일정한 기간동안 화물의 운송을 목적으로 선원이
-            승무하고<br />
-            선박의장을 갖춘 선박의 전부나 일부를<br />
-            용선자에게 제공할 것으로 약정하고 이에 대한 대가로 용선자가
-          </p>
-        </div>
-      </section>
-      <section id="project_m">
-        <div class="project_h">
-          <div>project</div>
-        </div>
-        <div class="project_b">
-          <header>
-            <ul>
-              <li>project01</li>
-              <li>project02</li>
-              <li>project03</li>
-              <li>project04</li>
-            </ul>
-          </header>
-          <section>
-            <div class="pj01">
-              <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-              </ul>
-            </div>
-            <div class="pj02">
-              <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-              </ul>
-            </div>
-            <div class="pj03">
-              <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-              </ul>
-            </div>
-            <div class="pj04">
-              <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-              </ul>
-            </div>
-          </section>
-        </div>
-      </section>
-      <section id="contactme_m">
-        <div class="contactme_h">
-          <div>contactme</div>
-        </div>
-        <div class="contactme_b">
+      <div class="content__contact">
+        <div class="content__contact__in contentinbox">
           <form id="form">
             <div class="field">
               <label for="from_name">from_name</label>
@@ -574,48 +192,44 @@
               <label for="tel">tel</label>
               <input type="text" name="tel" id="tel" />
             </div>
-            <div class="field">
-              <label for="reply_to">reply_to</label>
-              <input type="text" name="reply_to" id="reply_to" />
-            </div>
             <input type="submit" id="button" value="Send Email" />
           </form>
         </div>
-      </section>
-      <section id="finish_m">thank you</section>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="./js/scroll.js"></script>
+    <script src="./js/projectTab.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      emailjs.init("zupqzx3xJx0scNem9");
 
-      <script
-        type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
-      ></script>
+      const btn = document.getElementById("button");
 
-      <script type="text/javascript">
-        emailjs.init("zupqzx3xJx0scNem9");
+      document
+        .getElementById("form")
+        .addEventListener("submit", function (event) {
+          event.preventDefault();
 
-        const btn1 = document.getElementById("button");
+          btn.value = "Sending...";
 
-        document
-          .getElementById("form")
-          .addEventListener("submit", function (event) {
-            event.preventDefault();
+          const serviceID = "service_1li1qs4";
+          const templateID = "template_k868701";
 
-            btn1.value = "Sending...";
-
-            const serviceID = "service_1li1qs4";
-            const templateID = "template_k868701";
-
-            emailjs.sendForm(serviceID, templateID, this).then(
-              () => {
-                btn1.value = "Send Email";
-                alert("메일보내기 성공");
-              },
-              (err) => {
-                btn1.value = "Send Email";
-                alert(JSON.stringify(err));
-              }
-            );
-          });
-      </script>
-    </div> -->
+          emailjs.sendForm(serviceID, templateID, this).then(
+            () => {
+              btn.value = "Send Email";
+              alert("메일보내기 성공");
+            },
+            (err) => {
+              btn.value = "Send Email";
+              alert(JSON.stringify(err));
+            }
+          );
+        });
+    </script>
   </body>
 </html>
